@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #000000, #0a0a0a, #000000);
+  /* True Black Void */
+  color: #f8fafc;
+  /* Slate 50 text default */
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(71, 85, 105, 0.4);
+  /* slate-600 with opacity */
+  border-radius: 9999px;
+  transition: background-color 0.2s;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(71, 85, 105, 0.7);
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  background: rgba(0, 0, 0, 0.2);
+  /* High transparency (20%) */
+  backdrop-filter: blur(20px);
+  /* Heavy blur */
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  /* Very subtle border */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+}
+
+.glass-button {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.glass-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/* Neural Background Animations */
+.nyctophilia-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+  /* Behind everything */
+  pointer-events: none;
+}
+
+/* Subtle stars/grain overlay */
+.nyctophilia-overlay {
+  position: fixed;
+  /* Fixed to cover everything */
+  inset: 0;
+  z-index: 9999;
+  /* On TOP of everything */
+  pointer-events: none;
+  /* Click-through */
+  background-image:
+    radial-gradient(1px 1px at 20px 30px, #ffffff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 40px 70px, #ffffff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 50px 160px, #ffffff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 90px 40px, #ffffff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 130px 80px, #ffffff, rgba(0, 0, 0, 0));
+  background-size: 200px 200px;
+  opacity: 0.12;
+  /* Slightly reduced for UI visibility */
+  mix-blend-mode: screen;
+}
+
+/* React Flow Control Overrides */
+.react-flow__controls {
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.react-flow__controls-button {
+  background: rgba(23, 23, 23, 0.8) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0 !important;
+  transition: all 0.2s ease;
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.react-flow__controls-button:first-child {
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+}
+
+.react-flow__controls-button:last-child {
+  border-bottom-left-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+  border-bottom: none !important;
+}
+
+.react-flow__controls-button svg {
+  fill: #a1a1aa !important;
+  /* zinc-400 */
+}
+
+.react-flow__controls-button:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.react-flow__controls-button:hover svg {
+  fill: #ffffff !important;
+}
+
+.react-flow__attribution {
+  display: none !important;
+}

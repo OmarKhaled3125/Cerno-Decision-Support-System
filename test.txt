@@ -1,0 +1,26 @@
+
+*** ENGLISH SCENARIOS (Easy to Complicated) ***
+
+1. Easy: "I forgot my keys inside the house and the door locked behind me."
+2. Easy: "I am running 15 minutes late for a meeting with my boss."
+3. Easy: "It's raining and I have to choose between walking 10 minutes or waiting 20 minutes for a bus."
+4. Medium: "I need to buy a new laptop but I am on a tight budget. Choose between performance and portability."
+5. Medium: "My neighbor plays loud music every night. I have to decide whether to confront him or call the police."
+6. Medium: "I have two job offers: one pays more but is boring, the other pays less but is my passion."
+7. Hard: "I found a wallet with $500 and an ID inside. The owner lives in another city. What should I do?"
+8. Hard: "I am leading a team project and one member is not doing their work. The deadline is tomorrow. Do I do it myself or report them?"
+9. Complex: "I am the CEO of a company facing bankruptcy. I can save the company by firing 50% of staff or risk everything on a new unproven product."
+10. Complex: "As a government official, I must decide whether to lockdown the city to stop a virus outbreak, destroying the local economy, or keep it open and risk thousands of lives."
+
+*** ARABIC SCENARIOS (Easy to Complicated) ***
+
+1. Easy: "نسيت هاتفي في التاكسي ولا أتذكر رقم السائق."
+2. Easy: "أريد الذهاب للسينما ولكن أصدقائي يريدون الذهاب للمطعم."
+3. Easy: "تأخرت عن موعد الغداء مع العائلة بسبب زحمة السير."
+4. Medium: "أحتاج لشراء هدية لزوجتي في عيد زواجنا ولكنني لا أعرف ماذا تفضل."
+5. Medium: "تلقيت دعوة لحضور حفل زفاف صديق قديم في نفس يوم امتحان مهم لي."
+6. Medium: "سيارتي تعطلت في منتصف الطريق السريع في الليل."
+7. Hard: "وجدت مبلغاً كبيراً من المال في الشارع ولا يوجد أي إثبات شخصية معه."
+8. Hard: "صديقي المقرب يطلب مني أن أقرضه مبلغاً كبيراً من المال لعمل مشروع، وأنا أعلم أنه لا يملك خبرة."
+9. Complex: "أنا مدير مدرسة واكتشفت أن أحد المدرسين المتميزين يقوم بتسريب الامتحانات للطلاب المفضلين لديه."
+10. Complex: "بصفتي وزير المياه، يجب أن أقرر بين تحويل مياه النهر للزراعة لإنقاذ المحصول من الجفاف، أو توفيرها للشرب للمدن التي تعاني من نقص حاد، علماً أن الخيارين سيؤديان لكوارث."
